@@ -5,7 +5,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'volt/bootbox/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "volt-highcharts"
+  spec.name          = "volt-bootbox"
   spec.version       = Volt::Bootbox::VERSION
   spec.authors       = ["Colin Gunn"]
   spec.email         = ["colgunn@icloud.com"]
