@@ -1,5 +1,5 @@
 sh make/build
-# git remote add origin https://github.com/balmoral/volt-bootbox.git
-# git push -u origin master
-# git push
-# gem push volt-bootbox-0.1.0.gem
+git remote add origin https://github.com/balmoral/volt-bootbox.git
+git push -u origin master
+git push
+gem push volt-bootbox-0.1.0.gem

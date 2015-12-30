@@ -30,9 +30,50 @@ First include the gem in the project's Gemfile:
 
 ```gem 'volt-bootbox'```
 
-Next add volt-highcharts to the dependencies.rb file:
+Next add volt-bootbox to the dependencies.rb file:
 
 ```component 'bootbox'```
+
+### Examples
+
+```
+$bootbox.alert('Hello world!') do
+  puts 'hello world acknowledged'
+end
+
+$bootbox.alert(title: 'Alert dialog', message: 'Hello world!') do
+  puts 'hello world acknowledged'
+end
+
+$bootbox.confirm('Are you sure?') do |result|
+  puts "user is #{result ? 'sure' : 'unsure'}"
+end
+
+$bootbox.confirm(title: 'Confirmation dialog', message: Are you sure?') do |result|
+  puts "user is #{result ? 'sure' : 'unsure'}"
+end
+
+$bootbox.prompt('What is your name?') do |result|
+  if result 
+    puts "user's name is '#{result}'"
+  else
+    puts "prompt dismissed"
+  end  
+end
+
+$bootbox.prompt(title: 'Prompt dialog', message: 'What is your name?', value: 'default name') do |result|
+  if result 
+    puts "user's name is '#{result}'"
+  else
+    puts "prompt dismissed"
+  end  
+end
+
+```
+
+`$bootbox` is a global variable. `Volt::Bootbox` may be substituted. 
+
+Strings (text) provided as arguments to bootbox methods may be HTML format.
 
 ## Contributing
 
