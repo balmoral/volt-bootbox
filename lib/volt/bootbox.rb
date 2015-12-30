@@ -13,6 +13,7 @@
 
 module Volt
   module Bootbox
-    # Your code goes here...
+    module_function
+    include Opal::Bootbox
   end
 end
