@@ -15,7 +15,7 @@ require 'opal/bootbox'
 
 module Volt
   module Bootbox
-    module_function
     include Opal::Bootbox
+    module_function
   end
 end
