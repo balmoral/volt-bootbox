@@ -75,6 +75,9 @@ end
 
 Strings (text) provided as arguments to bootbox methods may be HTML format.
 
+All methods are executed asynchronously, hence the use of callback blocks
+with the result.
+ 
 ## Contributing
 
 Contributions, comments and suggestions are welcome.
