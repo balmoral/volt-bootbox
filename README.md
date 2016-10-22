@@ -22,7 +22,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install volt-highcharts
+    $ gem install volt-bootbox
 
 ## Usage
 
@@ -173,7 +173,7 @@ with the result.
 
 Contributions, comments and suggestions are welcome.
  
-1. Fork it ( http://github.com/balmoral/volt-highcharts/fork )
+1. Fork it ( http://github.com/balmoral/volt-bootbox/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)
