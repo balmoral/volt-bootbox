@@ -22,7 +22,7 @@ And then execute:
 
 Or install it yourself as:
 
-    $ gem install volt-highcharts
+    $ gem install volt-bootbox
 
 ## Usage
 
